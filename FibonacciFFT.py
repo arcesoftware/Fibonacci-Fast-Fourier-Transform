@@ -26,7 +26,9 @@ def generate_plots(event=None):  # event parameter allows binding to key
 
     # Create a DataFrame from the random Fibonacci numbers
     df = pd.DataFrame({'x': random_fib_numbers})
-
+    # Remove duplicates
+    df = df.drop_duplicates()
+    
     # Calculate the FFT of the dataframe using scipy.fft
     X = fft(df['x'].values)
 
