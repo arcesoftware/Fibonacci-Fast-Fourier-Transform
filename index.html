@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci Fast Fourier Transform Visualization</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            background: #333;
+            color: white;
+            padding: 1em 0;
+        }
+        header img {
+            max-width: 100%;
+            height: auto;
+        }
+        .container {
+            width: 80%;
+            margin: 2em auto;
+            background: white;
+            padding: 1em 2em;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #444;
+        }
+        pre {
+            background: #f4f4f4;
+            padding: 1em;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 1em 0;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://github.com/arcesoftware/Fibonacci-Fast-Fourier-Transform/blob/main/Images/mesmerizing_visualization_plot.jpg" alt="Banner">
+    </header>
+    <div class="container">
+        <h1>Fibonacci Fast Fourier Transform Visualization</h1>
+        <p>
+            This repository contains a Python script that generates Fibonacci numbers, selects a random subset of them,
+            computes the Fast Fourier Transform (FFT) on the data, and visualizes the results through scatter plots.
+            The visualizations include both the original data and its frequency domain representation.
+        </p>
+
+        <h2>Overview</h2>
+        <ol>
+            <li><strong>Generate Fibonacci Numbers</strong>: Create a sequence of Fibonacci numbers up to a specified count.</li>
+            <li><strong>Random Selection</strong>: Randomly select a subset of Fibonacci numbers.</li>
+            <li><strong>Apply FFT</strong>: Perform a Fast Fourier Transform (FFT) on the randomly selected Fibonacci numbers to analyze their frequency components.</li>
+            <li><strong>Visualize Data</strong>: Generate two scatter plots:
+                <ul>
+                    <li><strong>Original Data</strong>: Visualizes the selected Fibonacci numbers.</li>
+                    <li><strong>FFT Data</strong>: Visualizes the FFT results, displaying the real and imaginary components of the frequency domain.</li>
+                </ul>
+            </li>
+        </ol>
+
+        <h2>Requirements</h2>
+        <p>The script requires the following Python libraries:</p>
+        <ul>
+            <li><code>numpy</code></li>
+            <li><code>pandas</code></li>
+            <li><code>matplotlib</code></li>
+            <li><code>scipy</code></li>
+        </ul>
+        <p>Install the required dependencies using pip:</p>
+        <pre><code>pip install numpy pandas matplotlib scipy</code></pre>
+
+        <h2>How to Run the Script</h2>
+        <ol>
+            <li><strong>Clone this repository to your local machine:</strong></li>
+            <pre><code>git clone https://github.com/your-username/fibonacci-fft-visualization.git</code></pre>
+            <li><strong>Navigate to the project directory:</strong></li>
+            <pre><code>cd fibonacci-fft-visualization</code></pre>
+            <li><strong>Run the script:</strong></li>
+            <pre><code>python fibonacci_fft_visualization.py</code></pre>
+        </ol>
+
+        <h2>Example Output</h2>
+        <p><strong>Scatter Plot 1</strong>: Shows the original Fibonacci numbers, with the x-axis representing the index and the y-axis representing the value.</p>
+        <img src="https://github.com/arcesoftware/Fibonacci-Fast-Fourier-Transform/blob/main/Images/FFT_Fibo.png" alt="Scatter Plot 1">
+        <p><strong>Scatter Plot 2</strong>: Displays the real vs. imaginary parts of the FFT, with colors representing the phase.</p>
+        <img src="https://github.com/arcesoftware/Fibonacci-Fast-Fourier-Transform/blob/main/Images/FFT_Fibo0.png" alt="Scatter Plot 2">
+
+        <h2>License</h2>
+        <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
+
+        <h2>Contributing</h2>
+        <p>Feel free to fork this repository, open issues, and submit pull requests if you'd like to contribute to this project.</p>
+
+        <h2>Acknowledgments</h2>
+        <ul>
+            <li>The Fibonacci sequence is a well-known mathematical sequence.</li>
+            <li>FFT is a widely used algorithm in signal processing and data analysis.</li>
+        </ul>
+    </div>
+</body>
+</html>
