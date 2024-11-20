@@ -1,4 +1,4 @@
-![Banner](https://github.com/arcesoftware/Fibonacci-Fast-Fourier-Transform/blob/main/Images/mesmerizing_visualization_plot.jpg)
+ya![Banner](https://github.com/arcesoftware/Fibonacci-Fast-Fourier-Transform/blob/main/Images/mesmerizing_visualization_plot.jpg)
 
 # Fibonacci Fast Fourier Transform Visualization
 
@@ -87,13 +87,7 @@ Feel free to fork this repository, open issues, and submit pull requests if you'
 
 ---
 
-### How to use this `README.md`:
-
-1. Replace the repository URL `https://github.com/your-username/fibonacci-fft-visualization.git` with the actual URL of your repository.
-2. If necessary, modify the Python file name from `fibonacci_fft_visualization.py` to the actual script name if it's different.
-3. Add any additional sections as needed (for example, troubleshooting, examples, or further explanations).
-
-This `README.md` will provide clear instructions for users on how to understand and run your code while also making it easier for others to contribute or modify the project.
+### ARCE SOFTWARE 2024
 
 
 
