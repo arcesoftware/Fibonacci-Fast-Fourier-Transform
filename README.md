@@ -66,8 +66,12 @@ Two scatter plots are created:
 - **FFT Plot**: Shows the real vs. imaginary components of the FFT, with colors indicating the phase of each frequency component.
 
 ## Example Output
-- **Scatter Plot 1**: Shows the original Fibonacci numbers, with the x-axis representing the index and the y-axis representing the value.
-- **Scatter Plot 2**: Displays the real vs. imaginary parts of the FFT, with colors representing the phase.
+
+- **Scatter Plot 1**: Shows the original Fibonacci numbers, with the x-axis representing the index and the y-axis representing the value.  
+  ![Scatter Plot 1](https://github.com/arcesoftware/Fibonacci-Fast-Fourier-Transform/blob/main/Images/FFT_Fibo.png)
+
+- **Scatter Plot 2**: Displays the real vs. imaginary parts of the FFT, with colors representing the phase.  
+  ![Scatter Plot 2](https://github.com/arcesoftware/Fibonacci-Fast-Fourier-Transform/blob/main/Images/FFT_Fibo0.png)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
