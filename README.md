@@ -1,4 +1,6 @@
-# Fibonacci FFT Visualization
+![Banner](https://github.com/arcesoftware/Fibonacci-Fast-Fourier-Transform/blob/main/Images/mesmerizing_visualization_plot.jpg)
+
+# Fibonacci Fast Fourier Transform Visualization
 
 This repository contains a Python script that generates Fibonacci numbers, selects a random subset of them, computes the Fast Fourier Transform (FFT) on the data, and visualizes the results through scatter plots. The visualizations include both the original data and its frequency domain representation.
 
